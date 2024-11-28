@@ -1,0 +1,38 @@
+.container {
+    background-color: #f5f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card {
+    background: linear-gradient(to bottom right, #ffffff, #f8f9fa);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+}
+
+.custom-table th, .custom-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.custom-table th {
+    background-color: var(--primary-dark);
+    color: white;
+}
+
+.custom-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.btn {
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(27, 58, 87, 0.3);
+} 

@@ -1,0 +1,207 @@
+.welcome-banner {
+    margin-top: -1rem;
+}
+
+.bg-gradient-primary {
+    background: linear-gradient(45deg, #4e73df 0%, #224abe 100%);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card.clickable {
+    cursor: pointer;
+}
+
+/* Warna untuk border card */
+.border-left-primary { border-left: 4px solid #4e73df; }
+.border-left-success { border-left: 4px solid #1cc88a; }
+.border-left-info { border-left: 4px solid #36b9cc; }
+.border-left-warning { border-left: 4px solid #f6c23e; }
+.border-left-danger { border-left: 4px solid #e74a3b; }
+.border-left-secondary { 
+    border-left: 4px solid #858796; 
+}
+
+/* Icon styling */
+.card-body i {
+    opacity: 0.4;
+    font-size: 2.5rem;
+}
+
+.card:hover i {
+    opacity: 0.6;
+}
+
+/* Counter animation */
+.counter {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .col-xl-3 {
+        margin-bottom: 1rem;
+    }
+} 
+
+/* Welcome Banner Styling */
+.bg-gradient-welcome {
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    border: none;
+    overflow: hidden;
+}
+
+.welcome-text h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.wave {
+    animation: wave 2.5s infinite;
+    display: inline-block;
+    transform-origin: 70% 70%;
+}
+
+.welcome-stat {
+    background: rgba(255,255,255,0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+}
+
+.welcome-stat i {
+    margin-right: 8px;
+}
+
+.welcome-illustration {
+    position: relative;
+    text-align: center;
+}
+
+.welcome-illustration i {
+    font-size: 8rem;
+    opacity: 0.2;
+    animation: float 6s ease-in-out infinite;
+}
+
+/* Shapes Background */
+.welcome-shapes {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.shape-1, .shape-2, .shape-3 {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+}
+
+.shape-1 {
+    width: 150px;
+    height: 150px;
+    top: -75px;
+    right: -75px;
+}
+
+.shape-2 {
+    width: 100px;
+    height: 100px;
+    bottom: -50px;
+    left: 10%;
+}
+
+.shape-3 {
+    width: 50px;
+    height: 50px;
+    bottom: 50%;
+    right: 10%;
+}
+
+/* Animations */
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+} 
+
+/* Welcome Section */
+.bg-gradient-pro {
+    background: linear-gradient(to right, #2c3e50, #3498db);
+}
+
+.welcome-content h4 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.welcome-content p {
+    font-size: 0.875rem;
+}
+
+.quick-stats .badge {
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+}
+
+/* Card Styling */
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .quick-stats {
+        text-align: left !important;
+        margin-top: 1rem;
+    }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+} 

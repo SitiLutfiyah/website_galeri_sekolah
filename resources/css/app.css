@@ -1,0 +1,20 @@
+/* Sidebar Width */
+.left-sidebar {
+    width: 250px; /* Adjust the width as needed */
+}
+
+.scroll-sidebar {
+    width: 250px; /* Ensure the inner scrollable area matches the sidebar width */
+}
+
+/* Sidebar Link Padding */
+.sidebar-nav .sidebar-item .sidebar-link {
+    padding: 10px 20px; /* Adjust padding for better spacing */
+}
+
+/* Adjust Feather Icon Size */
+.feather-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; /* Add spacing between icon and text */
+}
